@@ -22,3 +22,27 @@ python alien_dictionary.py
 Edge Cases
 Cycles in character precedence
 Prefix problems where a longer word comes before a shorter one that is a prefix
+
+
+# 🧠 Mini Interpreter
+
+## ✨ Features
+- Supports `let` variable declarations
+- Evaluates arithmetic expressions with `+`, `-`, `*`, `/`
+- Supports conditional `if <condition> then <action>`
+- Keeps track of variable state across commands
+
+## 🛠 How to Run
+
+1. Install Python 3.x
+2. Save code to `mini_interpreter.py`
+3. Run with:
+
+```bash
+python mini_interpreter.py
+
+Edge Cases Handled:
+Invalid syntax
+Referencing undefined variables
+Division by zero
+Boolean conditions with variables
